@@ -1,0 +1,20 @@
+# General
+# ------------------------------------------------------------------------------
+USE_DOCKER=yes
+IPYTHONDIR=/app/.ipython
+# Redis
+# ------------------------------------------------------------------------------
+REDIS_URL=redis://redis:6379/0
+
+# Celery
+# ------------------------------------------------------------------------------
+
+# Flower
+CELERY_FLOWER_USER=PMIPrgEDURkmEszmTdfouNtzuNnlZUam
+CELERY_FLOWER_PASSWORD=QG7Szuq1CC0xXPkxL8mLQTnftD13SHZ52yv0Kitm2MO4qERdymB1yUmJdhZw4MFn
+
+# Django Admin
+# ------------------------------------------------------------------------------
+ADMIN_EMAIL=admin@diffy.com
+ADMIN_PASSWORD=somepassword
+ADMIN_TOKEN=c4ff38a871dad2069a95ee70305f06d10ee86097
